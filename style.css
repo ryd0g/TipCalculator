@@ -1,13 +1,42 @@
 body {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    justify-content: center;
+    border: 4px solid #fcdab7;
+    border-radius: 4px;
+    background-color: #133b5c;
     margin: auto;
     margin-top: 5px;
     width: 50%;
     padding: 5px;
 }
-h1, h2, h3 {
+.calc-box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    margin: auto;
+    width: 97%;
+    padding: 10px;
+    background-color: #1e5f74;
     font-family: Helvetica;
+}
+h1, h2, h3 {
+    font-family: 'Share Tech';
     font-size: 1.5em;
+    color: #fcdab7;
+    margin-bottom: 5px;
+    text-decoration: underline;
+} 
+p {
+    font-family: 'Share Tech';
+    font-size: 2em;
+    color: #fcdab7;
+}
+input {
+    font-size: 110%;
+    font-family: Helvetica;
+    font-weight: lighter;
+    background-color: whitesmoke;
+    color: #133b5c;
+    padding: 5px;
 }

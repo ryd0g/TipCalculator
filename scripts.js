@@ -1,0 +1,5 @@
+const inputBill = document.getElementById('input-bill')
+const inputTip = document.getElementById('input-tip')
+const inputPeople = document.getElementById('input-people')
+const displayTip = document.getElementById('display-tip')
+const displayTotal = document.getElementById('display-total')

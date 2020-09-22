@@ -13,7 +13,7 @@
         <div class="bill">
             <h1>Bill</h1>
             <label>
-                <input type="number" id="input-bill" min="0" value="0" step=".01">
+                <input type="number" step=".01" id="input-bill">
             </label>
         </div>
         <div class="tip">
@@ -29,15 +29,17 @@
             </label>
         </div>
     </section>
+    <button onclick="calculateTip()">Calculate</button>
+  <div class="totals-box">
     <section id="totals">
-        <div class="display-tip">
-            <p>Tip</p>
-        </div>
-        <div class="display-total">
-            <p>Total</p>
-        </div>
+        <p>Tip</p>
+        <div id="display-tip">$0.00</div>
+        <p>Tip Per Person</p>
+        <div id="display-per">$0.00</div>
+        <p>Total</p>  
+        <div id="display-total">$0.00</div>
     </section>
   </div>
-    <script></script>
+<script src="scripts.js"></script>
 </body>
 </html>

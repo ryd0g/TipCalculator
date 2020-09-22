@@ -6,7 +6,7 @@ body {
     border-radius: 4px;
     background-color: #133b5c;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 10px;
     width: 25%;
     padding: 5px;
     font-family: Helvetica;
@@ -27,13 +27,14 @@ h1, h2, h3 {
     font-family: 'Share Tech';
     font-size: 1.5em;
     color: #fcdab7;
-    margin-bottom: 5px;
+    margin: 15px 0 15px 0;
     text-decoration: underline;
 } 
 p {
     font-family: 'Share Tech';
     font-size: 1.8em;
     color: #fcdab7;
+    margin-bottom: 10px;
     text-decoration: underline;
 }
 input {

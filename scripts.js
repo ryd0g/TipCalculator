@@ -18,3 +18,4 @@ function calculateTip() {
     total.innerHTML = '$' + totalAmount.toFixed(2)
     per.innerHTML = '$' + perAmount.toFixed(2)
   }
+

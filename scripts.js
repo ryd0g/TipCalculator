@@ -19,3 +19,6 @@ function calculateTip() {
     per.innerHTML = '$' + perAmount.toFixed(2)
   }
 
+billInput.addEventListener('input', calculateTip)
+tipInput.addEventListener('input', calculateTip)
+peopleInput.addEventListener('input', calculateTip)

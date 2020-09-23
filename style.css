@@ -45,7 +45,7 @@ input {
     color: #133b5c;
     padding: 5px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     body {
         display: flex;
         flex-direction: column;

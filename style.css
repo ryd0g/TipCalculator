@@ -45,8 +45,3 @@ input {
     color: #133b5c;
     padding: 5px;
 }
-@media screen and (max-width: 300px) {
-    body {
-        border-color: white;
-    }
-}

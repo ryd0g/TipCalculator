@@ -17,8 +17,8 @@ function calculateTip() {
     const totalPer = totalAmount / peopleValue
   
     tip.innerHTML = '$' + tipAmount.toFixed(2)
-    perTip.innerHTML = '$' + tipEach.toFixed(2)
     total.innerHTML = '$' + totalAmount.toFixed(2)
+    perTip.innerHTML = '$' + tipEach.toFixed(2)
     perAmount.innerHTML = '$' + totalPer.toFixed(2)
   }
 

@@ -55,7 +55,7 @@ input {
         background-color: #133b5c;
         margin: auto;
         margin-top: 10px;
-        width: 95%;
+        width: 150%;
         padding: 5px;
         font-family: Helvetica;
         font-size: 1em;
@@ -66,7 +66,7 @@ input {
         flex-direction: column;
         border-radius: 4px;
         margin: auto;
-        width: 94%;
+        width: 210%;
         padding: 10px;
         background-color: #1e5f74;
         font-family: Helvetica;

@@ -1,0 +1,1 @@
+github pages link: https://ryd0g.github.io/TipCalculator/
